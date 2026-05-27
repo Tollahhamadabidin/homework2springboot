@@ -1,0 +1,12 @@
+package co.istad.bidin.restapi.service;
+
+import co.istad.bidin.restapi.domain.Coffee;
+import co.istad.bidin.restapi.dto.CoffeeResponse;
+
+import java.util.List;
+
+public interface CoffeeService {
+
+    List<CoffeeResponse> getCoffees();
+
+}
