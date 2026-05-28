@@ -2,6 +2,8 @@ package co.istad.bidin.restapi.dto;
 
 public record CoffeeResponse(
         String name,
-        String description
+        String description,
+        Double price
 ) {
+
 }

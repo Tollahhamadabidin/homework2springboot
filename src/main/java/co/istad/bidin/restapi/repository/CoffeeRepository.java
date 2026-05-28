@@ -14,9 +14,9 @@ public class CoffeeRepository {
 
     @Bean
     public List<Coffee> beanCoffee(){
-        Coffee coffee = new Coffee(1, "Ice latte",  "50%");
-        Coffee coffee2 = new Coffee(2, "Macha latte", "70%");
-        Coffee coffee3 = new Coffee(3, "Ice tea", "40%");
+        Coffee coffee = new Coffee(1L, "Ice latte",  "50%", 12.4);
+        Coffee coffee2 = new Coffee(2L, "Macha latte", "70%", 23.5);
+        Coffee coffee3 = new Coffee(3L, "Ice tea", "40%", 34.5);
         return Arrays.asList(coffee, coffee2, coffee3);
 
     }

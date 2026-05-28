@@ -7,6 +7,14 @@ import java.util.List;
 
 public interface CoffeeService {
 
-    List<CoffeeResponse> getCoffees();
+    List<Coffee> getCoffee();
+    List<CoffeeResponse> getCoffeeResponse();
+    CoffeeResponse getCoffeeById(Long id);
+
+
+    List<CoffeeResponse> searchByNameAndPrice(String name, Double price);
+
+
+
 
 }
